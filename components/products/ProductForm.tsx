@@ -13,7 +13,6 @@ type ProductFormProps = {
 export default async function ProductForm({ product }: ProductFormProps) {
 
   const categories = await getCategories()
-  console.log(categories)
   return (
       <>
           <div className="space-y-2">
